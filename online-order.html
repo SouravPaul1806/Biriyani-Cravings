@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Biryani Cravings</title>
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom Styles -->
+    <style>
+        body {
+            padding-top: 56px; /* Adjusted for fixed navbar */
+        }
+        .footer{
+  background: #152F4F;
+  color:white;
+  
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Biryani Cravings</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="online-order.html">Order Online</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="table-book.html">Book Table</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <select class="custom-select" id="locationSelect">
+                      <option selected>Select Location</option>
+                      <option value="location1">Park Street Area</option>
+                      <option value="location2">Ballygunj</option>
+                      <option value="location3">Sector-1,Salt-Lake</option>
+                      <option value="location3">Sodepur</option>
+                      <option value="location3">Garia</option>
+                      <option value="location3">New Market </option>
+                      <option value="location3">Diamond Habour</option>
+                      <option value="location3">Naihati</option>
+                      <option value="location3">Madhyamgram</option>
+                      <option value="location3">Barasat</option>
+                      <option value="location3">Belgharia</option>
+                      <option value="location3">Shyambazar</option>
+                      <option value="location3">Dumdum</option>
+                      <option value="location3">Sealdah</option> 
+                      <option value="location3">New Jalpaiguri</option> 
+                    
+                    </select>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container mt-5">
+      <h2 class="text-center mb-4">Online Food Order</h2>
+
+      <form>
+          <div class="form-group">
+              <label for="foodType">Select Food Type</label>
+              <select class="form-control" id="foodType" required>
+                  <option value="pizza">Chicken Biryani</option>
+                  <option value="burger">Mutton  Biryani</option>
+                  <option value="pasta">Alu Biryani</option>
+                  <option value="sushi">Fried Rice & Chili Chicken(Combo)</option>
+                  <option value="pizza">Mixed Fried Eice</option>
+                  <option value="burger">Veg Fried Rice</option>
+                  <option value="pasta">Chicken Chap</option>
+                  <option value="sushi">Kabab's</option>
+                  <!-- Add more options as needed -->
+              </select>
+          </div>
+
+          <div class="form-group">
+              <label for="quantity">Quantity</label>
+              <input type="number" class="form-control" id="quantity" placeholder="Enter quantity" required>
+          </div>
+
+         
+
+          <div class="form-group">
+              <label>Delivery Option</label>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="deliveryOption" id="deliveryOption1" value="home" checked>
+                  <label class="form-check-label" for="deliveryOption1">
+                      Home Delivery
+                  </label>
+              </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="deliveryOption" id="deliveryOption2" value="pickup">
+                  <label class="form-check-label" for="deliveryOption2">
+                      Pickup
+                  </label>
+              </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Place Order</button>
+      </form>
+  </div>
+
+   <!-- Footer -->
+   <div class="mt-5 pt-5 pb-5 footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-xs-12 about-company">
+          <h2></h2>
+          <p class="pr-5 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis </p>
+         <span>follow us on</span><br>
+          <p><a href="#"><i class="fa-brands fa-facebook"></i></a> &nbsp;<a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>&nbsp;<a href="#"><i class="fa-brands fa-square-google-plus"></i></i></a></p> </div>
+        <div class="col-lg-3 col-xs-12 links">
+          <h4 class="mt-lg-0 mt-sm-3">Food Items</h4>
+            <ul class="m-0 p-0">
+              <li>- <a href="#">Mutton Biriyani</a></li>
+              <li>- <a href="#">Chicken Biriyani</a></li>
+              <li>- <a href="#">Alu Biriyani</a></li>
+              <li>- <a href="#">Handi Biriyani</a></li>
+              <li>- <a href="#">Fried Rice </a></li>
+              <li>- <a href="#">Chili Chicken</a></li>
+             
+        </div>
+        <div class="col-lg-4 col-xs-12 location">
+          <h4 class="mt-lg-0 mt-sm-4">Location</h4>
+          <p>Kolkata, West Bengal, India</p>
+          <p class="mb-0"><i class="fa fa-phone mr-3"></i>1800-1234-5678</p>
+          <p><i class="fa-regular fa-envelope"></i>&nbsp;   cravings@gmail.com</p>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col copyright">
+          <p class=""><small class="text-white-50">© 2023. All Rights Reserved.</small></p>
+        </div>
+      </div>
+    </div>
+    </div>
+   <!--Footer S4ection Ends Here-->
+   <!--Footer S4ection Ends Here-->
+
+</body>
+
+</html>

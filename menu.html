@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Biryani Cravings</title>
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom Styles -->
+    <style>
+        body {
+          margin: 0;
+            padding-top: 56px; /* Adjusted for fixed navbar */
+        }
+        .footer{
+  background: #152F4F;
+  color:white;
+  
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
+
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Biryani Cravings</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="online-order.html">Order Online</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="table-book.html">Book Table</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <select class="custom-select" id="locationSelect">
+                      <option selected>Select Location</option>
+                      <option value="location1">Park Street Area</option>
+                      <option value="location2">Ballygunj</option>
+                      <option value="location3">Sector-1,Salt-Lake</option>
+                      <option value="location3">Sodepur</option>
+                      <option value="location3">Garia</option>
+                      <option value="location3">New Market </option>
+                      <option value="location3">Diamond Habour</option>
+                      <option value="location3">Naihati</option>
+                      <option value="location3">Madhyamgram</option>
+                      <option value="location3">Barasat</option>
+                      <option value="location3">Belgharia</option>
+                      <option value="location3">Shyambazar</option>
+                      <option value="location3">Dumdum</option>
+                      <option value="location3">Sealdah</option> 
+                      <option value="location3">New Jalpaiguri</option> 
+                    
+                    </select>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<BR><BR>
+ <!--Page Content Starts Here-->
+ <span style="font-size: 35px; margin-left: 9%; font-weight: 700; color: crimson;"> Chicken Biriyani Items</span>
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card">
+        <img src="chicken handi.webp" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Chicken Biriyani</h5>
+          <p class="card-text"> Chicken Handi Biriyani with salad (1kg)</p>
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>285</button>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <img src="egg chicken biriyani.jpg" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Chicken Biriyani</h5>
+          <p class="card-text">Chicken Biriyani with egg</p>
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>255</button>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <img src="chicken biriyani.webp" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Chicken Biriyani</h5>
+          <p class="card-text">Kolkata style chicken biriyani(500gram)</p>
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>235</button>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <img src="LUCKNOWI_MURG_BIRYANI__AWADHI_CHICKEN_BIRYANI.jpg" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Chicken Biriyani</h5>
+          <p class="card-text">Lucknow style chicken biriyani</p>
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>255</button>
+      </div>
+    </div>
+  </div>
+</div>
+<br><br>
+<span style="font-size: 35px; margin-left: 9%; font-weight: 700; color: crimson;"> Mutton Biriyani Items</span>
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card">
+        <img src="kolkata-biryani-lead.webp" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Mutton Biriyani</h5>
+          <p class="card-text">Kolkata style mutton biriyani with egg.</p>
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>425</button>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <img src="lukhnow mutton biriyani.jpg" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Mutton Biriyani</h5>
+          <p class="card-text">Lucknow style mutton biriyani with raita</p>
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>445</button>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <img src="mutton biriyani bawarchi style(hyderbadi).jpg" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Mutton Biriyani</h5>
+          <p class="card-text">Hyderabadi style biriyani</p>
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>450</button>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <img src="muttonDumHandiBiryani.jpg" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Dum Biriyani</h5>
+          <p class="card-text">Mutton Dum Biriyani (1.2kg)</p>
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>580</button>
+      </div>
+    </div>
+  </div>
+</div>
+<br><br>
+<span style="font-size: 35px; margin-left: 9%; font-weight: 700; color: crimson;"> Fried Rice Items    </span>
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="chicken-fried-rice.jpg" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Fried Rice</h5>
+          <p class="card-text">Mixed Non Veg Fried Rice</p>
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>299</button>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="mixed veg fried rice.JPG" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Fried Rice</h5>
+          <p class="card-text">Mixed Veg Fried Rice</p>
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>199</button>
+      </div>
+    </div>
+    </div>
+<br>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="egg fried rice.jpg" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Fried Rice</h5>
+          <p class="card-text">Egg Fried Rice</p>
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>235</button>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br><br>
+<span style="font-size: 35px; margin-left: 9%; font-weight: 700; color: crimson;"> Kabab Items</span>
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card">
+        <img src="paneer kabab.jpg" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Paneer Tikka Kabab</h5>
+          <p class="card-text">paneer tikka made using air fryer, Smoky spicy </p>
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>145</button>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <img src="Kalmi_Kebab_Recipe_Mughlai_Style_Spicy_Pan_Fried_Chicken-2.jpg" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Kalmi Kabab</h5>
+          <p class="card-text">Kalmi Kabab, The Pepper with green chutni(3piece)</p>
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>315</button>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <img src="chicken_reshmi_kebab.webp" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Chicken Reshmi Kabab</h5>
+          <p class="card-text">Reshmi Kabab with green chutni and salad</p>
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>350</button>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <img src="malai tikka.jpg" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Malai Tikka</h5>
+          <p class="card-text">Chicken malai tikka r perfect for an outdoor barbecue.</p>
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>360</button>
+      </div>
+    </div>
+  </div>
+</div>
+<br><br>
+<span style="font-size: 35px; margin-left: 9%; font-weight: 700; color: crimson;"> Mocktail Items</span>
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card">
+        <img src="agua-fresca-recipe-01-280x280.webp" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Mango Lemonade</h5>
+          <p class="card-text"> </p>
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>105</button>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <img src="basil-lemon-mojito-280x280.webp" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Virgin Mojitos </h5>
+          <p class="card-text"></p>
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>85</button>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <img src="blue-mojitos-featured-image.jpg" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Blue Mojitos</h5>
+          <p class="card-text"></p>
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>90</button>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <img src="pina-colada-recipe-280x280.webp" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Virgin Pina Colada </h5>
+          <p class="card-text"></p>
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>100</button>
+      </div>
+    </div>
+  </div>
+</div>
+<br><br>
+<span style="font-size: 35px; margin-left: 9%; font-weight: 700; color: crimson;"> Juice Items</span>
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card">
+        <img src="Mango-Juice.webp" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Mango Juice</h5>
+          <p class="card-text"> </p>
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>85</button>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <img src="orange juice.jpg" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Orange Juice </h5>
+          <p class="card-text"></p>
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>95</button>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <img src="frozen.jpg" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Strawberry Juice</h5>
+          <p class="card-text"></p>
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>120</button>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card">
+        <img src="pineapple-juice.webp" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Pineapple Juice </h5>
+          <p class="card-text"></p>
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>40</button>
+      </div>
+    </div>
+  </div>
+</div>
+<br><br>
+<span style="font-size: 35px; margin-left: 9%; font-weight: 700; color: crimson;"> Soft Drinks</span>
+<div class="container mt-5">
+  <div class="row">
+    <!-- Card 1 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="cocacola.png" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Cococola</h5>
+          <p class="card-text"></p>
+          </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>65</button>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="sprite-1-800x480.webp" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Sprite</h5>
+          <p class="card-text"></p>
+         
+        </div><br>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>60</button>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="redbull.jpg" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Sprite</h5>
+          <p class="card-text"></p>
+         
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>125</button>
+      </div>
+    </div>
+    <br><br>
+    <!-- Card 4 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="cocezero.jpg" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Coke Zero Can</h5>
+          <p class="card-text"></p>
+         
+        </div><br>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>40</button>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="coke.webp" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Coke</h5>
+          <p class="card-text"></p>
+         
+        </div>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>40</button>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="col-md-4">
+      <div class="card">
+        <img src="dietcoke.jpg" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Diet Coke</h5>
+          <p class="card-text"></p>
+          
+        </div><br>
+        <button type="button" class="btn btn-outline-info">Price
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+            <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4z"/>
+          </svg>40</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+       </div>
+  <div id="content-3"></div>
+  
+
+ </div>
+ <!--Page Content Ends Here-->
+   
+   
+   <!-- Footer -->
+   <div class="mt-5 pt-5 pb-5 footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-xs-12 about-company">
+          <h2></h2>
+          <p class="pr-5 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac ante mollis quam tristique convallis </p>
+         <span>follow us on</span><br>
+          <p><a href="#"><i class="fa-brands fa-facebook"></i></a> &nbsp;<a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>&nbsp;<a href="#"><i class="fa-brands fa-square-google-plus"></i></i></a></p> </div>
+        <div class="col-lg-3 col-xs-12 links">
+          <h4 class="mt-lg-0 mt-sm-3">Food Items</h4>
+            <ul class="m-0 p-0">
+              <li>- <a href="#">Mutton Biriyani</a></li>
+              <li>- <a href="#">Chicken Biriyani</a></li>
+              <li>- <a href="#">Alu Biriyani</a></li>
+              <li>- <a href="#">Handi Biriyani</a></li>
+              <li>- <a href="#">Fried Rice</a></li>
+              <li>- <a href="#">Chili Chicken</a></li>
+            </ul>
+        </div>
+        <div class="col-lg-4 col-xs-12 location">
+          <h4 class="mt-lg-0 mt-sm-4">Location</h4>
+          <p>Kolkata, West Bengal, India</p>
+          <p class="mb-0"><i class="fa fa-phone mr-3"></i>1800-1234-5678</p>
+          <p><i class="fa-regular fa-envelope"></i>&nbsp;   cravings@gmail.com</p>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col copyright">
+          <p class=""><small class="text-white-50">© 2023. All Rights Reserved.</small></p>
+        </div>
+      </div>
+    </div>
+    </div>
+   <!--Footer S4ection Ends Here-->
+
+
+</div>
+<!-- End of .container -->
+
+   <!--Footer S4ection Ends Here--> 
+
+</body>
+
+</html>
